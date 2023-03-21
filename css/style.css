@@ -198,18 +198,20 @@ body{
 
 
 .filter-button-first{
+    font-family: inherit;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
     align-items: center;
     text-align: center;
     letter-spacing: 0.04em;
-    
+
     color: #FFFFFF;
     background-color: #404BBF;
 }
 
 .filter-button{
+    font-family: inherit;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
