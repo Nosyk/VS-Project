@@ -19,6 +19,10 @@ body{
     color: var(--primary-color)
 }
 
+
+/* xxxxxxxxxxxxxxRESETSxxxxxxxxxxxx */
+
+
 .text-for-hone {
     font-weight: 700;
     font-size: 56px;
@@ -62,6 +66,13 @@ body{
     color: var(--primary-color);
 }
 
+
+/* xxxxxxxxxxxxxxxxWEBSTUDIO-PAGExxxxxxxxxxxxxxxx */
+
+
+/* xxxxxxxxxxxxxxxxNAVIGATION-MENUxxxxxxxxxxxxxxx */
+
+
 .link:hover {
     color: #404BBF;
 }
@@ -92,6 +103,10 @@ body{
 .contacts-menu-link:hover{
     color: #404BBF;
 }
+
+
+/* xxxxxxxxxxxxxxxxxxxxxHERO-TITLExxxxxxxxxxxxxxxx */
+
 
 .hero {
     background-color:  var(--primary-color)
@@ -126,12 +141,20 @@ body{
     background: #404BBF;
 }
 
+
+/* xxxxxxxxxxxxxxxxxADVENSERSxxxxxxxxxxxxxxxx */
+
+
 .advensers-item-title{
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
     letter-spacing: 0.02em;
 }
+
+
+/* xxxxxxxxxxxxxxxxOUR-TEAMxxxxxxxxxxxxxxxx */
+
 
 .our-team-item-name{
     text-align: center;
@@ -140,6 +163,10 @@ body{
 .our-team-item-job{
     text-align: center;
 }
+
+
+/* xxxxxxxxxxxxxxxxxxFOOTERxxxxxxxxxxxxxx */
+
 
 .footer {
     background-color: #2E2F42;
@@ -164,4 +191,32 @@ body{
     letter-spacing: 0.02em;
 
     color: #E7E9FC;
+}
+
+
+/* xxxxxxxxxxxxxxxxxxxxPORTFOLIO-PAGExxxxxxxxxxxxxxx */
+
+
+.filter-button-first{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.04em;
+    
+    color: #FFFFFF;
+    background-color: #404BBF;
+}
+
+.filter-button{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.04em;
+
+    color:#4D5AE5;
+    background-color:#F4F4FD;
 }
