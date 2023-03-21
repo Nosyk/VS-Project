@@ -15,6 +15,7 @@ body{
     font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
+
     color: var(--primary-color)
 }
 
@@ -41,11 +42,12 @@ body{
 }
 
 .text {
-    font-size: 12px;
-    line-height: 1.15;
+    font-size: 16px;
+    line-height: 1.5;
     align-items: center;
-    letter-spacing: 0.04em;
-    color: var(--primary-color);
+    letter-spacing: 0.02em;
+
+    color: #434455;
 }
 
 .list {
@@ -124,7 +126,20 @@ body{
     background: #404BBF;
 }
 
+.advensers-item-title{
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+}
 
+.our-team-item-name{
+    text-align: center;
+}
+
+.our-team-item-job{
+    text-align: center;
+}
 
 .footer {
     background-color: #2E2F42;
@@ -143,10 +158,10 @@ body{
 }
 
 .footer-text {
-    font-size: 12px;
-    line-height: 1.15;
+    font-size: 16px;
+    line-height: 1.5;
     align-items: center;
-    letter-spacing: 0.04em;
+    letter-spacing: 0.02em;
 
     color: #E7E9FC;
 }
