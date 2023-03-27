@@ -360,11 +360,9 @@ body{
     align-items: center;
     text-align: center;
     letter-spacing: 0.04em;
-    display: block;
     border: 1px solid #E7E9FC;
     border-radius: 4px;
-    margin-left: auto;
-    margin-right: auto;
+    padding: 12px 24px;
 
     color:#4D5AE5;
     background-color:#F4F4FD;
@@ -386,27 +384,39 @@ body{
 }
 
 .filter-button-list{
+    display: flex;
+    justify-content: center;
     gap: 24px;
     margin-bottom: 72px;
 }
 
 .our-projects-list{
     display: flex;
-    gap: 24px;
+    flex-wrap: wrap;
+    gap: 48px 24px;
 }
 
 .our-projects-item{
-    border: 1px solid #E7E9FC;
+    width: calc((100% - 48px) / 3);
+    /* flex-basis: 250px; */
+    flex-grow: 1;
 }
 
 .our-projects-photo{
+}
+
+.our-projects-item-text{
+    border-right: 1px solid #E7E9FC;
+    border-left:1px solid #E7E9FC; ;
+    border-bottom:1px solid #E7E9FC; ;
     padding-bottom: 32px;
+    padding-top: 32px;
+    text-align: left;
 }
 
 .our-projects-name{
-    padding-bottom: 8px;
+    margin-bottom: 8px;
 }
 
 .our-projects-prupose{
-    padding-bottom: 32px;
 }
