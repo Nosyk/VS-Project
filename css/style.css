@@ -317,6 +317,24 @@ body {
   border-radius: 0px 0px 4px 4px;
 }
 
+.our-team-social{
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+  
+    color: #ffffff;
+    background: #4d5ae5;
+    border-radius: 50%;
+}
+
+.social-icon{
+    width: 16px;
+    height: 16px;
+    fill: white;
+}
+
 .our-team-item-photo {
   padding-bottom: 32px;
 }
@@ -451,7 +469,7 @@ color: #FFFFFF;
   border-radius: 50%;
 }
 
-.social-icon {
+.social-icon-footer-part {
   width: 24px;
   height: 24px;
   fill: white;
