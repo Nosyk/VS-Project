@@ -173,12 +173,22 @@ body {
   color: #404bbf;
 }
 
+.link-unerline::after {
+    content: '';
+    display: block;
+    height: 4px;
+    margin-top: 44px;
+    background-color: #404bbf;
+    border-radius: 2px;
+}
+
 /* xxxxxxxxxxxxxxxxxxxxxHERO-TITLExxxxxxxxxxxxxxxx */
 
 .hero {
   background-color: var(--primary-color);
   padding-top: 188px;
   padding-bottom: 188px;
+  background-image: ;
 }
 
 .hero-title {
@@ -413,7 +423,7 @@ body {
 font-family: var(--primary-font-family)
 font-weight: 500;
 font-size: 16px;
-line-height: 1.5px;
+line-height: 1.5;
 letter-spacing: 0.02em;
 
 color: #FFFFFF;
