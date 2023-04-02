@@ -540,9 +540,6 @@ body {
   cursor: pointer;
 }
 
-.our-projects-photo {
-}
-
 .our-projects-item-text {
   border-right: 1px solid #e7e9fc;
   border-left: 1px solid #e7e9fc;
@@ -554,7 +551,4 @@ body {
 
 .our-projects-name {
   margin-bottom: 8px;
-}
-
-.our-projects-prupose {
 }
