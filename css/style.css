@@ -195,7 +195,7 @@ body {
       rgba(46, 47, 66, 0.7),
       rgba(46, 47, 66, 0.7)
     ),
-    url(/imgs/people-office\ 1-2.jpg);
+    url(../imgs/people-office\ 1-2.jpg);
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
